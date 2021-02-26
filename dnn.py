@@ -5,7 +5,6 @@ from sklearn.datasets import load_digits
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense, Flatten
-from scipy.interpolate import interp1d
 
 
 digits = load_digits()
